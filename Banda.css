@@ -1,0 +1,155 @@
+.logo{
+	width: 150px;
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+body{
+ background-image: url(instrumentos.jpg);
+ background-color: #333;
+}
+header{
+	background-color: black;
+	border-bottom: 10px solid #e85b14;
+	height:200px;
+}
+.menu{
+	margin: auto;
+	width: 70%;
+	height: 100px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 40px;
+	display: inline-block;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+.lista li a{
+	background-color: black;
+	color:#878e8b;
+	text-decoration: none;
+	padding: 10px 40px;
+	display: block;
+	transition: 1s;
+}
+.lista > li{
+	float: left;
+}
+.lista li a:hover{
+	background-color: #333;
+	color:#e85b14;
+	font-size: 45px;
+	border-radius: 50px;
+	border:2px solid #e85b14;
+	transition: 1s;
+}
+.lista li ul{
+	display: none;
+	position: absolute;
+}
+.lista li:hover > ul{
+	display: block;
+}
+.redes{
+		float: right;
+		padding: 15px;
+		display: inline-block;
+		border-left: 2px solid #e85b14;
+}
+.facebook,.instagram,.youtube{
+	display: inline-block;
+	width: 50px;
+	height:50px;
+	text-align: center;
+}
+.redes a{
+	color:#e85b14;
+	font-size: 40px;
+	transition: 1s;
+}
+.redes .facebook a:hover{
+	color: #3b5998;
+	font-size: 50px;
+	transition: 1s;
+
+}
+.redes .instagram a:hover{
+	color:#517fa4;
+	font-size: 50px;
+	transition: 1s;
+}
+.redes .youtube a:hover{
+	color: #b31217;
+	font-size: 50px;
+	transition: 1s;
+}
+.inicio,.nosotros,.videos,.contacto{
+	padding: 60px;
+}
+.fechas, .temas,.nosotros > div, .contacto > div{
+	border: 10px solid #e85b14;
+	padding: 25px 25px 25px 25px;
+	background-color: #4c4a47;
+}
+.nosotros img{
+	width: 80%;
+	margin: auto;
+}
+.fechas div img{
+	width: 24%;
+	padding: 10px 5px 5px 5px;
+	margin: auto;
+}
+.temas div video{
+	width: 45%;
+	padding: 10px 5px 5px 5px;
+	margin: auto;
+}
+.nosotros div div, .contacto div div{
+	padding: 10px 5px 5px 5px; 
+}
+.fechas div, .nosotros div div,.datos>div, .temas>div{
+	border-top: 2px solid #e85b14;
+}
+.discografia{
+	padding: 50px;
+}
+.integrantes div{
+	margin: auto;
+	width: 23%;
+	display: inline-block;
+}
+h1,th{
+	color: #878e8b;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+	background-color: #4c4a47;
+}
+h2{
+	color: #878e8b;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+}
+table,p,fieldset{
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+}
+fieldset{
+	width: 200px;
+	margin: auto;
+}
+table{
+	border-color: #e85b14;
+}
+td {
+	padding: 15px;
+	background-color: #4c4a47;
+}
+.nosotros > div > div > p{
+	text-align: justify;
+	line-height: 40px;
+}
